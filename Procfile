@@ -1,1 +1,1 @@
-web: java -jar target/demo.jar
+web: java $JAVA_OPTS -jar target/demo-meli-0.0.1-SNAPSHOT.jar --server.port=$PORT $JAR_OPTS
